@@ -6,6 +6,10 @@
   max-width: 400px;
 }
 
+.form:active{
+  border-color: red;
+}
+
 .formName,
 .formNumber {
   display: flex;
