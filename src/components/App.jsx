@@ -18,7 +18,7 @@ export class App extends Component {
     number: '',
   };
 
-  handleChange = e => {
+  handleFilterChange = e => {
     const { name, value } = e.target;
     this.setState({ [name]: value });
   };

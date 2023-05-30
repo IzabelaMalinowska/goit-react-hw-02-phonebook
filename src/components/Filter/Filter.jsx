@@ -3,7 +3,7 @@ import css from './Filter.module.css';
 
 export const Filter = ({ filter, onFilterChange }) => (
   <div>
-    <label className={css.filterLabel}>Find contacts by Name </label>
+    <label className={css.filterLabel}>Find contacts by name </label>
     <input
       className={css.filterName}
       type="text"
@@ -19,3 +19,5 @@ Filter.propTypes = {
   filter: propTypes.string.isRequired,
   handleChange: propTypes.func.isRequired,
 };
+
+

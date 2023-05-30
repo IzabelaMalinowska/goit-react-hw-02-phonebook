@@ -29,8 +29,8 @@
   border: none;
   border-radius: 10px;
   padding: 20px;
-  background: linear-gradient(to right, #c1c9eb, #a09fec);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  background: gray;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease;
   display: flex;
   flex-direction: column;
@@ -45,7 +45,7 @@
 }
 
 .contactList {
-  list-style: none;
+  list-style-type: disc;
   padding: 0;
   margin: 20px 0;
 }
@@ -54,13 +54,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0;
+  padding: 10px;
   border-bottom: none;
+  background-color: rgb(210, 202, 202);
   transition: background-color 0.3s ease;
-}
-
-.contactListItem:last-child {
-  border-bottom: none;
+  margin: 5px 0;
 }
 
 .contactListItem:hover {
@@ -68,7 +66,7 @@
 }
 
 .contactListItemBtn {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #78757516;
   color: #fff;
   border: none;
   border-radius: 4%;
